@@ -1,0 +1,104 @@
+body {
+	
+	font-family: Verdana, sans-serif;
+	background-color: grey;
+	}
+
+
+
+#container {
+	width:800px;
+	margin: 0 auto;
+}
+
+#baraOrinzontala {
+		height:40px;
+		background-color: red;
+		border: red;
+		}
+
+
+#header {
+	height:100px;
+background: url('http://goo.gl/qCm9th') no-repeat;
+	color:black;
+	text-align:left;
+	padding:20px;		
+}
+
+#barSeparator {
+		height:20px;
+		background-color:black;
+		border: 1px outset black;
+}
+
+#parteaStanga {
+	width:20%;
+	background-color: #3A4;
+	min-height:400px;
+	float:left;
+}
+
+.logo{
+	matgin-top:40px;
+	text-align:center;
+
+}
+
+.meniuVertical {
+		list-style-type:none;
+		background-color:#99FF00;
+		padding-left: 0px;
+				
+}
+
+.meniuVertical li{
+		height:50px;
+		font-weight: bold;
+		border: 3px inset #032408;
+		text-align:center;
+		color: blue;
+		cursor:pointer;
+
+}
+
+#continut{
+	width:80%;
+background: yellow;
+color: black;
+min-height:400px;
+	float:right;
+}
+p::first-letter {
+	color: white;
+	font-size: large;
+	font-family: "Arial Black", cursive;
+	}
+	
+#coloana1{
+		width: 250px;
+		float:left;
+		margin-left:40px;
+		text-align:justify;
+}
+
+#coloana2{
+		width: 250px;
+		float:right;
+		margin-right:40px;
+		text-align:justify;
+}
+
+#subsol {
+width:640px;
+		height:40px;
+		font-weight: bold;
+		background-color: #15541E;
+		color:#FFF;
+		text-align:center;
+		clear:both;
+		padding-top:1px;
+		padding-bottom:5px;
+		float:right;
+
+}
